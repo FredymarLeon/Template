@@ -4,123 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcação para um template</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <img src="./img/logo.jpg" alt="Logo do blog" width="80">
+        <img id="img-header" src="./img/logo.jpg" alt="Logo do blog" width="80">
         <nav>
-            <a href="#">PRINCIPAL</a>
-            <a href="#">AVES</a>
-            <a href="#">MAMIFEROS</a>
+            <a href="#">Principal</a>
+            <a href="#">Aves</a>
+            <a href="#">Mamiferos</a>
         </nav>
-    </header>
+    </header
 
  <main>
-    <img src="./img/gramado.jpg" alt="Gramado verde" width="1000" height="100">
+    <img class="img-principal" src="./img/gramado.jpg" alt="Gramado verde" width="1000" height="100">
 
-    <section>
-        <article>
-            <div>
-                <figure>
-                    <img src="./img/cachorro.jpg" width="150">
-                    <figcaption>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua.
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure>
-                    <img src="./img/rumiante.jpg" width="150">
-                    <figcaption>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua.
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure>
-                    <img src="./img/tartaruga.jpg" width="150">
-                    <figcaption>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua.
-                    </figcaption>
-                </figure>
-            </div>
-        </article>
+    <section class="principal">
+        <figure>
+            <img src="./img/cachorro.jpg" width="150">
+            <figcaption>
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.</p>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="./img/rumiante.jpg" width="150">
+            <figcaption>
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.</p>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="./img/tartaruga.jpg" width="150">
+            <figcaption>
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.</p>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="./img/cachorro.jpg" width="150">
+            <figcaption>
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.</p>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section class="secundaria">
+        <div class="aves">
+            <h1>Aves</h1>
+            <figure>
+                <img src="./img/aguia.jpg" width="50">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./img/ave.jpg" width="50">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./img/ave.jpg" width="50">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+         <div class="flamengos">
+            <h1>Flamengos</h1>
+            <figure>
+                <img src="./img/flamengo.jpg" width="50">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./img/flamengo.jpg" width="50">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./img/flamengo.jpg" width="50">
+                <figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua.</p>
+                </figcaption>
+            </figure>
+        </div>
+        <aside class="felino">
+            <h1>Felino</h1>
+            <figure id="felino">
+                <img src="./img/felino.jpg" width="200">
+                <figcaption>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua.
+                </figcaption>
+            </figure>
+        </aside>
     </section>
 </main>
-
-    <section aria-label="Aves">
-         <article>
-            <h1>Aguias</h1>
-            <img src="./img/aguia.jpg" width="50">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua.
-            </p>
-        </article>
-         <article>
-            <h1>Aves</h1>
-            <img src="./img/ave.jpg" width="50">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua.
-            </p>
-            <img src="./img/ave.jpg" width="50">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua.
-            </p>
-            <img src="./img/ave.jpg" width="50">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua.
-            </p>
-        </article>
-         <article>
-            <h1>Flamengos</h1>
-            <img src="./img/flamengo.jpg" width="50">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua.
-            </p>
-            <img src="./img/flamengo.jpg" width="50">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua.
-            </p>
-            <img src="./img/flamengo.jpg" width="50">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua.
-            </p>
-        </article>
-        <article>
-            <h1>Felino</h1>
-            <img src="./img/felino.jpg" width="200">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua.
-            </p>
-    </section>
-
-    <section>
-        <div>
+    <section class="ultima">
+        <div class="natureza">
             <h1>Natureza</h1>
             <p>
                 Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, 
@@ -144,7 +156,7 @@
                 aliqua.
             </p>
         </div>
-        <div>
+        <aside class="salvagem">
             <h1>Vida salvagem</h1>
             <img src="./img/vida-salvagem.jpg" width="160">
             <p>
@@ -154,11 +166,12 @@
                 sed do eiusmod tempor incididunt ut labore et dolore magna.
                 aliqua.
             <p>
-        </div>
+            </aside>
     </section>
+
+        <footer>
+        <p>
+            &copy; 2025 Fredymar Leon.
+        </p>
+        </footer>
 </body>
-<footer>
-    <p>
-        &copy; 2025 Fredymar Leon.
-    </p>
-</footer>

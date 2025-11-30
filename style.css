@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #200101;
+}
+
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    background-color: #200101;
+    border: 1px solid #200101;
+}
+
+#img-header {
+   height: 30px;
+}
+
+.img-principal {
+    display: inline;
+    height: 130px;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.principal figure img, figcaption {
+    width: 180px;
+    height: 180px;
+    text-align: justify;
+}
+
+figcaption h2 {
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.secundaria {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #290101;
+    color: rgb(141, 64, 45);
+}
+
+.aves figure, .flamengos figure {
+    display: flex;
+    font-size: 12px;
+}
+
+.felino img{
+    width: 360px;
+}
+
+.aves img, .flamengos img {
+    width: 80px;
+    height: 80px;
+    margin-right: 16px;
+}
+
+aside figure figcaption{
+ width: 360px;
+ margin-top: 8px;
+}
+
+.ultima {
+    background-color: #190101;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: rgb(112, 45, 45);
+}
+
+.natureza {
+    margin-right: 26px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #200101;
+    color: aliceblue;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
